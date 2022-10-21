@@ -592,15 +592,11 @@ h6,
     color:#ffff !important;
 }
 
-.section-description , .section-requirement {
+.section-description p, .section-requirement p {
     white-space: pre-line !important;
     line-height: 40px !important;
     margin-top: 0px !important;
     padding-top: 0px !important;
-}
-
-.section-description p , .section-requirement p{
-    margin-top: -70px !important;
 }
 
 .form-control:disabled, .form-control:read-only{
@@ -634,6 +630,7 @@ color: red !important;
 font-family: Georgia, serif;
 }
 
-
-
+.table > :not(caption) > * > * {
+    border-bottom-width: 0px !important;
+  }
 
