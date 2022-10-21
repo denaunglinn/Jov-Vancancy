@@ -10,13 +10,13 @@
                 <span class="badge rounded-pill bg-warning"> <i class="fa fa-user"></i> {{$vacancy->required_no}} posts</span>
             </div>
         </div>
-        <div class="section-description mt-3">
+        <div class="section-description wow fadeInUp mt-3">
             <h4>Job Description</h4>
             <p class="text-left">
                 {{$vacancy->description}}
             </p>
         </div>
-        <div class="section-requirement mt-0">
+        <div class="section-requirement wow fadeInUp mt-0">
             <h4>Job Requirements</h4>
             <p class="text-left">
                 {{$vacancy->requirements}}
