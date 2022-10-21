@@ -76,7 +76,8 @@ class JobVacancyController extends Controller
     public function show(Request $request)
     {
         $vacancy = JobVacancy::findOrFail($request->id);
-
+        $html = '';
+        
         if($request->view == 1){
             $html = view('job_vacancy.components.apply_form', compact('vacancy'))->render();
         }else{
